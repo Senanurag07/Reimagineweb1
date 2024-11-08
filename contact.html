@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>All Products - RedStore</title>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+	</head>
+	<body>
+		<div class="container">
+			<div class="navbar">
+				<div class="logo">
+					<a href="cart.html"
+						><img
+							src="images/front_people/Logonew.png"
+							width="125px"
+					/></a>
+				</div>
+				<nav id="nav">
+					<ul id="MenuItems">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="products.html">Products</a></li>
+						<!-- <li><a href="">About</a></li> -->
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="account.html">Account</a></li>
+					</ul>
+				</nav>
+				<a href="cart.html"
+					><img src="images/cart.png" width="30px" height="30px"
+				/></a>
+				<img
+					src="images/menu.png"
+					class="menu-icon"
+					onclick="menutoggle()"
+				/>
+			</div>
+		</div>
+
+		<!--------contact-page------------>
+
+		<section id="contact">
+			<h1 class="section-header">Contact</h1>
+
+			<div class="contact-wrapper">
+				<!-- Left contact page -->
+
+				<form id="contact-form" class="form-horizontal" role="form">
+					<div class="form-group">
+						<div class="col-sm-12">
+							<input
+								type="text"
+								class="form-control"
+								id="name"
+								placeholder="NAME"
+								name="name"
+								value=""
+								required
+							/>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div class="col-sm-12">
+							<input
+								type="email"
+								class="form-control"
+								id="email"
+								placeholder="EMAIL"
+								name="email"
+								value=""
+								required
+							/>
+						</div>
+					</div>
+
+					<textarea
+						class="form-control"
+						rows="10"
+						placeholder="MESSAGE"
+						name="message"
+						required
+					></textarea>
+
+					<button
+						class="btn btn-primary send-button"
+						id="submit"
+						type="submit"
+						value="SEND"
+					>
+						<div class="alt-send-button">
+							<i class="fa fa-paper-plane"></i
+							><span class="send-text">SEND MESSAGE</span>
+						</div>
+					</button>
+				</form>
+
+				<!-- Left contact page -->
+
+				<div class="direct-contact-container">
+					<ul class="contact-list">
+						<li class="list-item">
+							<i class="fa fa-map-marker fa-2x"
+								><span class="contact-text place"
+									>City, State</span
+								></i
+							>
+						</li>
+
+						<li class="list-item">
+							<i class="fa fa-phone fa-2x"
+								><span class="contact-text phone"
+									><a
+										href="tel:1-212-555-5555"
+										title="Give me a call"
+										>(212) 555-2368</a
+									></span
+								></i
+							>
+						</li>
+
+						<li class="list-item">
+							<i class="fa fa-envelope fa-2x"
+								><span class="contact-text gmail"
+									><a href="mailto:#" title="Send me an email"
+										>RedStore@gmail.com</a
+									></span
+								></i
+							>
+						</li>
+					</ul>
+
+					<hr />
+					<ul class="social-media-list">
+						<li>
+							<a href="#" target="_blank" class="contact-icon">
+								<i class="fa fa-github" aria-hidden="true"></i
+							></a>
+						</li>
+						<li>
+							<a href="#" target="_blank" class="contact-icon">
+								<i class="fa fa-codepen" aria-hidden="true"></i
+							></a>
+						</li>
+						<li>
+							<a href="#" target="_blank" class="contact-icon">
+								<i class="fa fa-twitter" aria-hidden="true"></i
+							></a>
+						</li>
+						<li>
+							<a href="#" target="_blank" class="contact-icon">
+								<i
+									class="fa fa-instagram"
+									aria-hidden="true"
+								></i
+							></a>
+						</li>
+					</ul>
+					<hr />
+
+					<!-- <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div> -->
+				</div>
+			</div>
+		</section>
+
+		<!-------------- footer ------------->
+
+		<div class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="footer-col-1">
+						<h3>Download Our App</h3>
+						<p>Download App for Android and ios mobile phone</p>
+						<div class="app-logo">
+							<img src="images/play-store.png" />
+							<img src="images/app-store.png" />
+						</div>
+					</div>
+					<div class="footer-col-2">
+						<img src="images/front_people/Logonew.png" />
+						<p>
+							Our Purpose Is To Sustainably Make the Pleasure and
+							Benefits of Sports Accessible to the Many.
+						</p>
+					</div>
+					<div class="footer-col-3">
+						<h3>Useful Links</h3>
+						<ul>
+							<li>About Us</li>
+							<li>Privacy Policy</li>
+							<li>Blog</li>
+							<li>Return Policy</li>
+							<li>Terms & Conditions</li>
+						</ul>
+					</div>
+					<div class="footer-col-4">
+						<h3>Follow Us</h3>
+						<ul>
+							<li>
+								<img
+									src="https://th.bing.com/th/id/R.39a1d68aec01e3a9ce7c0ad7b9a9c6b2?rik=oQTpDpcTmfQpQg&riu=http%3a%2f%2fpluspng.com%2fimg-png%2ffacebook-logo-png-image-2335-1403.png&ehk=A6gzMacsllFktQ3DwgKCwXCKBhdJNlpCydh%2bXl3VABQ%3d&risl=&pid=ImgRaw&r=0"
+									alt=""
+								/>Facebook
+							</li>
+							<li>
+								<img
+									src="https://th.bing.com/th/id/R.b757f2bca8039d4a08882d38f4c1b8f0?rik=l1HvTt1fIsaMmQ&riu=http%3a%2f%2fpluspng.com%2fimg-png%2ftwitter-logo-png-logo-twitter-in-png-2500.png&ehk=qSLAOlUdmImpXk6Jj6NUgKgK5gv%2fq1TGUwvlzdeBiNA%3d&risl=&pid=ImgRaw&r=0"
+									alt=""
+								/>Twitter
+							</li>
+							<li>
+								<img
+									src="https://www.pngmart.com/files/21/Instagram-Logo-PNG-HD-Isolated.png"
+									alt=""
+								/>Instagram
+							</li>
+							<li>
+								<img
+									src="https://www.freepnglogos.com/uploads/youtube-logo-hd-8.png"
+									alt=""
+								/>You Tube
+							</li>
+						</ul>
+					</div>
+				</div>
+				<hr />
+				<p class="Copyright">Copyright 2021.All Rights Reserved</p>
+			</div>
+		</div>
+		<!------------js for toggle menu------------->
+		<script>
+			var MenuItems = document.getElementById("MenuItems");
+
+			MenuItems.style.maxHeight = "0px";
+
+			function menutoggle() {
+				if (MenuItems.style.maxHeight == "0px") {
+					console.log("clicked one");
+					MenuItems.style.maxHeight = "200px";
+				} else {
+					console.log("clicked two");
+					MenuItems.style.maxHeight = "0px";
+				}
+			}
+		</script>
+	</body>
+</html>
